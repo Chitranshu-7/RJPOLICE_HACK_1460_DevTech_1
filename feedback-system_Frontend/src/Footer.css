@@ -1,0 +1,8 @@
+.Homefoot{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+  }

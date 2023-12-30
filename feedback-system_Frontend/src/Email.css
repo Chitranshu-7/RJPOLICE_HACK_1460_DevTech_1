@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(90deg, #0003ff, #ff0000);
+
+  
+    color: #ffffff; 
+}
+
+
+.Emaimg{
+   
+        position: absolute;
+      
+        left: 50px;
+        top: 70px;
+        width: 120px;
+        height: 120px;
+      
+      
+      
+}
+
+.Emahead{
+    color: white;
+    margin-top: 100px;
+}
+
+.Emanav{
+    /* border: 1px solid white; */
+    margin-top: 100px;
+}
+
+.Emahead {
+    text-align: center;
+    font-size: 100px;
+  
+}
+
+/* img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+} */
+
+
+
+.Emaform-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Emaform-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Emaform-group input {
+    width: 40px;
+    padding: 12px;
+    border: none;
+    margin: 0 5px; /* Adjust margin between input boxes */
+    border-radius: 5px;
+    outline: none;
+    background: white; /* Set background color to white */
+    color: #333; /* Set text color */
+    text-align: center; 
+}
+
+
+
+.Emabtn {
+    background: linear-gradient(90deg, #ff3131, #ff914d);
+    margin-top: 30px;
+    padding: 10px 60px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}

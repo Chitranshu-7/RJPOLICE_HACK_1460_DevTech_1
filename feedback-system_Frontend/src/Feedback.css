@@ -1,0 +1,87 @@
+
+body {
+    
+    background: linear-gradient(90deg, #0003ff, #ff0000);
+ 
+    color: #ffffff; /* Set text color to white for better visibility */
+}
+
+.Feedhead,
+.Feedpara {
+    color: white;
+}
+
+.Feedhead {
+    text-align: center;
+}
+
+.Feedimg{
+
+        position: absolute;
+      
+        left: 50px;
+        top: 90px;
+        width: 120px;
+        height: 120px;
+      
+      
+      
+}
+
+.Feednav{
+    /* border: 1px solid white; */
+}
+.Feedhead {
+    font-size: 100px;
+    margin-top: 100px
+}
+
+.Feedpara{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.Feedform-container {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+.Feedform-group input {
+    width: 300px;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+}
+
+.Feedbackbox{
+    width: 300px;
+    padding:12px;
+    height: 130px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.Feedbtn {
+    background: linear-gradient(90deg, #ff3131, #ff914d);
+    margin-top: 12px;
+    padding: 10px 40px;
+    font-weight: 800;
+    margin-left: 50px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+
+}
+
+::placeholder {
+    font-weight: 700;
+    text-align: center
+}

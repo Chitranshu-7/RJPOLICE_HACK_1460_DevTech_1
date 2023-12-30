@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(90deg, #0003ff, #ff0000);
+ 
+    color: #ffffff; /* Set text color to white for better visibility */}
+.Reghead,
+.Regpara {
+    color: white;
+
+}
+
+ .Reghead {
+    text-align: center;
+}
+
+
+
+ .Reghead{
+    margin-top: 70px;
+    font-size: 100px;
+}
+
+.Regpara {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.Regimg{
+    
+        position: absolute;
+        left: 50px;
+        top: 70px;
+        width: 120px;
+        height: 120px;
+      
+      
+      
+}
+
+.Regform-container {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
+
+}
+.Regform-group input {
+
+    width: 300px;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 50px;
+    outline: none;
+
+}
+.Regbtn {
+    background: linear-gradient(90deg, #ff3131, #ff914d);
+    margin-top: 12px;
+    padding: 10px 40px;
+    margin-left: 90px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+::placeholder {
+    font-weight: 700;
+
+}

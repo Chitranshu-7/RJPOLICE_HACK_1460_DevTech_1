@@ -1,0 +1,101 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.Homebody{
+    background: linear-gradient(90deg, #0003ff, #ff0000);
+ 
+    color: #ffffff; /* Set text color to white for better visibility */
+  }
+  
+
+
+.Homenav{
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.Homehead,.Homepara{
+  color: white;
+  text-align: center;
+  
+
+}
+
+.Homehead{
+  font-size: 100px;
+  /* font-family: 'Copperplate Gothic 29AB', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* border: 1px solid white; */
+}
+.Homepara{
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+
+
+.Homeimg{
+  position: absolute;
+
+  left: 50px;
+  top: 70px;
+  width: 120px;
+  height: 120px;
+
+
+}
+
+
+.Homenav{
+  display: flex;
+  justify-content: center;
+}
+.Homemain{
+  margin-top: 100px;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+  padding: 10px;
+}
+
+.Homebtn{
+  padding: 40px;
+  font-size: 30px;
+  color: #ff0000;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.Homebtna{
+
+    padding: 40px;
+    font-size: 30px;
+    color: #0003ff;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+
+
+.Homefoot{
+  padding: 20px 60px;
+
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
