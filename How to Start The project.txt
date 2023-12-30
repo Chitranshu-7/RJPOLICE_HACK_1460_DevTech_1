@@ -1,0 +1,36 @@
+
+Sure, let's break down each step in a simpler way to run the website:
+
+Step 1: Clone the Repo
+What to do: Download a copy of the project onto your computer.
+How to do it: Use a command like git clone [repository URL] in your terminal or command prompt.
+
+
+
+Step 2: Open the Frontend Folder and Install Dependencies
+What to do: Navigate to the "Frontend" folder of the project.
+How to do it: Use the cd command to change into the "Frontend" folder, then run npm install in the terminal.
+What it does: This command installs all the necessary tools and libraries that the frontend of the website needs.
+
+
+Step 3: Start the Frontend
+What to do: In the same terminal in the "Frontend" folder, run npm start.
+What it does: This command launches the frontend of the website. You can now view it in your web browser at http://localhost:3000.
+
+
+
+Step 4: Open the Backend Folder and Install Dependencies
+What to do: Navigate to the "Backend" folder of the project.
+How to do it: Use the cd command to change into the "Backend" folder, then run npm install in the terminal.
+What it does: This command installs all the necessary tools and libraries that the backend of the website needs.
+
+
+Step 5: Start the Backend
+What to do: In the same terminal in the "Backend" folder, run npm start.
+What it does: This command launches the backend of the website. It's now ready to handle requests from the frontend.
+
+
+
+Step 6: Check the Website
+What to do: Open your web browser and go to http://localhost:3000.
+What it does: This is where your website is running. You can interact with it as if it were live on the internet.
